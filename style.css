@@ -86,11 +86,11 @@ h1 {
 }
 
 p {
-    position: absolute;
+    position: relative;
     bottom: 20px;
     width: 100%;
     text-align: center;
-    color: #ecf0f1;
+    color: black;
     font-family: 'Cherry Swash',cursive;
     font-size: 16px;
 }
