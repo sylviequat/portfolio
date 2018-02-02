@@ -1,7 +1,6 @@
 
 nav {
 	margin: 27px auto 0;
-
 	position: relative;
 	width: 590px;
 	height: 50px;
@@ -74,7 +73,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 body {
 	font-size: 12px;
 	font-family: sans-serif;
-	background: whitesmoke;
+	background: white;
 }
 h1 {
 	text-align: center;
