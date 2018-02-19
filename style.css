@@ -1,4 +1,19 @@
 
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color: burlywood;
+	background-image: url("img/notebook.jpg");
+	background-size: auto;
+
+    /* Full height */
+	height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 nav {
 	margin: 27px auto 0;
 	position: relative;
@@ -70,11 +85,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 	background-color: #e67e22;
 }
 
-body {
-	font-size: 12px;
-	font-family: sans-serif;
-	background: white;
-}
+
 h1 {
 	text-align: center;
 	margin: 40px 0 40px;
@@ -111,8 +122,8 @@ span {
       }
       
       .vignette {
-          width: 200px;
-          height: 200px;
+          width: 50px;
+          height: 50px;
           margin: 30px;
           display: flex;
           flex-wrap: wrap;
@@ -130,8 +141,8 @@ span {
       .vignette:focus {
           transition: all 2.5s;
           transform: rotate(1080deg);
-          width: 180px;
-          height: 180px;
+          width: 150px;
+          height: 150px;
           z-index: 100;
       }
       
