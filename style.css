@@ -82,13 +82,19 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 
 
 h1 {
+	width: 590px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
 	text-align: center;
-	margin: 40px 0 40px;
+	margin: auto;
 	text-align: center;
 	font-size: 40px;
 	color: #ecf0f1;
 	text-shadow: 2px 2px 4px #000000;
+	box-shadow: 3px 3px 3px black;
 	font-family: 'Cherry Swash', cursive;
+	
 }
 
 .presentation {
@@ -113,8 +119,6 @@ p {
 span {
     color: #2BD6B4;
 }
-
-
 
 .langages {
 display: flex;
@@ -141,21 +145,48 @@ padding: 0;
   z-index: 0;
 }
       
-      .vignette img:hover,
-      .vignette:focus {
-          transition: all 2.5s;
-          transform: rotate(1080deg);
-          width: 150px;
-          height: 150px;
-          z-index: 100;
-      }
+.vignette img:hover,
+.vignette:focus {
+    transition: all 2.5s;
+    transform: rotate(1080deg);
+    width: 150px;
+    height: 150px;
+	z-index: 100;
+}
       
-      .vignette img {
-          position: absolute;
-          transition-duration: 1.5s;
-          transition-timing-function: ease-out;
-      }
-      
-      .vignette:nth-child(even) {
-          background: rgb(216, 247, 234);
-      }
+.vignette img {
+    position: absolute;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+}
+	  
+.vignette:nth-child(even) {
+    background: rgb(216, 247, 234);
+}
+
+
+.projets {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+
+	}
+.proj {
+	width: 200px;
+	height: 200px;
+	margin: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px black;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 0;
+  }
+
