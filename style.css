@@ -2,10 +2,10 @@
 
 
 body {
-	font-size: 12px;
-	font-family: sans-serif;
 	background-image: url("img/fond1.png");
 	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: auto;
 
 }
 
@@ -91,6 +91,11 @@ h1 {
 	font-family: 'Cherry Swash', cursive;
 }
 
+.presentation {
+	margin: auto;
+	width: 600px;
+
+}
 p {
     position: relative;
     bottom: 20px;
